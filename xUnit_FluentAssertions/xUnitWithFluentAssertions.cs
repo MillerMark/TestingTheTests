@@ -1,6 +1,6 @@
-namespace xUnitTests
+namespace xUnit_FluentAssertions
 {
-    public class UnitTest1
+    public class xUnitWithFluentAssertions
     {
         [Fact]
         public void Test1()

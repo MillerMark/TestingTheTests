@@ -1,9 +1,11 @@
 using CoreCalc;
 using FluentAssertions;
+using System.Collections.Generic;
+using System.Security.Cryptography;
 
 namespace NUnit_FluentAssertions
 {
-    public class Tests
+    public class NUnitWithFluentAssertions
     {
         [SetUp]
         public void Setup()
@@ -18,5 +20,14 @@ namespace NUnit_FluentAssertions
             calculator.Add(5, 2).Should().Be(7);
             calculator.Add(1, 2).Should().Be(3);
         }
+
+        [Test]
+        public void TestShouldBe()
+        {
+            List<string> list = new List<string>();
+            
+        }
+
+        
     }
 }

@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using CoreCalc;
 
 namespace NUnitTests
@@ -10,6 +11,7 @@ namespace NUnitTests
         {
             
         }
+
 
         [Test]
         public void Test1()

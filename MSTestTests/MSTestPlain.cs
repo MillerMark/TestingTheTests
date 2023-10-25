@@ -1,7 +1,7 @@
 namespace MSTestTests
 {
     [TestClass]
-    public class MSTestTestsPlain
+    public class MSTestPlain
     {
         [TestMethod]
         public void TestMethod1()
