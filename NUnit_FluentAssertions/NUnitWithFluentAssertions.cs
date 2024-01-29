@@ -16,9 +16,9 @@ namespace NUnit_FluentAssertions
         public void Test1()
         {
             Calculator calculator = new Calculator();
-            calculator.Add(3, 4).Should().Be(7);
-            calculator.Add(5, 2).Should().Be(7);
-            calculator.Add(1, 2).Should().Be(3);
+            calculator.AddTwoNumbers(3, 4).Should().Be(7);
+            calculator.AddTwoNumbers(5, 2).Should().Be(7);
+            calculator.AddTwoNumbers(1, 2).Should().Be(3);
         }
 
         [Test]
